@@ -1,4 +1,4 @@
-const { withAssetPrefix } = require('gatsby');
+// const { withAssetPrefix } = require('gatsby');
 const nodemailer = require('nodemailer');
 
 function generateOrderEmail({ order, total }) {
